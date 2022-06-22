@@ -20,4 +20,6 @@ Developing is best done by setting up
 
 which starts a server that automatically rebuilds the packages when their code changes and exposes a dev server on port 8090 running the [demo](http://localhost:8090) and [browser tests](http://localhost:8090/test/).
 
+To run a command in each package's directory, use `bin/cm.js run`, e.g. `bin/cm.js run git pull` to pull the latest commits for each package.
+
 Please see [the website](https://codemirror.net/) for more information and [docs](https://codemirror.net/docs/ref).
